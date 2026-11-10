@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111d">
+  <meta name="description" content="Prestige Solar Energy and Electrical Limited — commercial solar, inverter systems, industrial electrical installations and energy audits in Port Harcourt, Nigeria.">
+  <title>Prestige Solar Energy & Electrical | Power Without Compromise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { fontFamily: { sans: ['DM Sans','sans-serif'], display: ['Space Grotesk','sans-serif'] }, colors: { ink:'#07111d', panel:'#0c1b2a', line:'#203347', mint:'#55e6a5', aqua:'#56d9ef' }, boxShadow: { glow:'0 0 50px rgba(85,230,165,.13)' } } } };
+  </script>
+  <style>
+    :root { color-scheme: dark; --mint:#55e6a5; --aqua:#56d9ef; }
+    * { box-sizing:border-box; border-radius:0 !important; }
+    html { scroll-behavior:smooth; scroll-padding-top:90px; }
+    body { margin:0; background:#07111d; color:#e8f0f6; font-family:'DM Sans',sans-serif; }
+    body::before { content:""; position:fixed; inset:0; pointer-events:none; z-index:-1; opacity:.16; background-image:linear-gradient(rgba(110,160,190,.08) 1px,transparent 1px),linear-gradient(90deg,rgba(110,160,190,.08) 1px,transparent 1px); background-size:56px 56px; mask-image:linear-gradient(to bottom,black,transparent 85%); }
+    .display { font-family:'Space Grotesk',sans-serif; letter-spacing:-.055em; }
+    .glass { background:rgba(10,25,39,.78); border:1px solid rgba(137,170,194,.16); backdrop-filter:blur(18px); -webkit-backdrop-filter:blur(18px); }
+    .eyebrow { color:var(--mint); font-size:.68rem; font-weight:700; letter-spacing:.2em; text-transform:uppercase; }
+    .btn { display:inline-flex; align-items:center; justify-content:center; gap:.65rem; min-height:48px; padding:.8rem 1.1rem; font-size:.85rem; font-weight:700; transition:transform .25s,background .25s,border-color .25s,box-shadow .25s; }
+    .btn:hover { transform:translateY(-2px); }
+    .btn-primary { color:#04130d; background:var(--mint); box-shadow:0 8px 30px rgba(85,230,165,.15); }
+    .btn-primary:hover { background:#83f3bf; box-shadow:0 12px 36px rgba(85,230,165,.25); }
+    .btn-outline { border:1px solid #3a5368; color:#e8f0f6; background:rgba(255,255,255,.02); }
+    .btn-outline:hover { border-color:var(--mint); background:rgba(85,230,165,.07); }
+    .section { padding:6rem 0; }
+    .section-rule { border-top:1px solid rgba(137,170,194,.15); }
+    .service-card { min-height:260px; transition:transform .3s,border-color .3s,background .3s,box-shadow .3s; }
+    .service-card:hover { transform:translateY(-5px); border-color:rgba(85,230,165,.48); background:rgba(14,35,49,.94); box-shadow:0 18px 48px rgba(0,0,0,.22); }
+    .icon-box { width:46px;height:46px;display:grid;place-items:center;border:1px solid rgba(85,230,165,.3);color:var(--mint);background:rgba(85,230,165,.07); }
+    .hero-grid { background-image:linear-gradient(90deg,rgba(7,17,29,.97) 0%,rgba(7,17,29,.84) 49%,rgba(7,17,29,.35) 100%),url('https://images.unsplash.com/photo-1509391366360-2e959784a276?q=85&w=2000&auto=format&fit=crop'); background-size:cover;background-position:center; }
+    .metric { border-left:1px solid rgba(137,170,194,.22); padding-left:1.25rem; }
+    input,select,textarea { width:100%; background:#071522; border:1px solid #294054; color:#eef5fa; padding:.85rem .9rem; outline:none; transition:border-color .2s,box-shadow .2s; }
+    input:focus,select:focus,textarea:focus { border-color:var(--mint); box-shadow:0 0 0 3px rgba(85,230,165,.1); }
+    input::placeholder,textarea::placeholder { color:#70869a; }
+    .modal-backdrop { position:fixed;inset:0;z-index:80;background:rgba(1,7,13,.78);backdrop-filter:blur(10px);display:none;align-items:center;justify-content:center;padding:1rem; }
+    .modal-backdrop.open { display:flex; }
+    .modal-panel { width:min(100%,680px);max-height:90vh;overflow:auto;background:#0b1a29;border:1px solid #2a4358;box-shadow:0 30px 100px rgba(0,0,0,.55); }
+    .mobile-menu { display:none; }
+    .mobile-menu.open { display:block; }
+    .orb { position:absolute;width:360px;height:360px;border-radius:50% !important;filter:blur(90px);opacity:.12;pointer-events:none;background:#36e89b; }
+    .range { accent-color:var(--mint);width:100%; }
+    @media(max-width:767px){.section{padding:4.4rem 0}.hero-grid{background-position:58% center}.metric{padding-left:.8rem}.orb{width:220px;height:220px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
+  </style>
+</head>
+<body>
+  <header class="fixed top-0 inset-x-0 z-50 border-b border-white/10 glass">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div class="flex h-[76px] items-center justify-between gap-4">
+        <a href="#home" class="flex items-center gap-3" aria-label="Prestige Solar home">
+          <span class="grid h-10 w-10 place-items-center border border-emerald-300/50 bg-emerald-300/10 text-emerald-300"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="3.5"/><path d="M12 1v3m0 16v3M4.22 4.22l2.12 2.12m11.32 11.32 2.12 2.12M1 12h3m16 0h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg></span>
+          <span><span class="block display text-[1.02rem] font-bold tracking-tight text-white">PRESTIGE<span class="text-emerald-300">.</span></span><span class="block text-[9px] tracking-[.19em] text-slate-400">SOLAR & ELECTRICAL LTD.</span></span>
+        </a>
+        <nav class="hidden items-center gap-7 text-[.82rem] font-medium text-slate-300 lg:flex" aria-label="Main navigation">
+          <a class="hover:text-emerald-300" href="#solutions">Solutions</a><a class="hover:text-emerald-300" href="#calculator">Solar calculator</a><a class="hover:text-emerald-300" href="#standards">Our standards</a><a class="hover:text-emerald-300" href="#contact">Contact</a>
+        </nav>
+        <div class="hidden sm:block"><button class="btn btn-primary" data-open-quote>Request site assessment <span aria-hidden="true">↗</span></button></div>
+        <button id="menuToggle" class="grid h-11 w-11 place-items-center border border-slate-700 text-white lg:hidden" aria-label="Toggle navigation" aria-expanded="false"><svg width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 7h18M3 12h18M3 17h18"/></svg></button>
+      </div>
+      <div id="mobileMenu" class="mobile-menu border-t border-white/10 py-4 lg:hidden">
+        <nav class="grid gap-1 text-sm text-slate-300"><a class="px-2 py-3" href="#solutions">Solutions</a><a class="px-2 py-3" href="#calculator">Solar calculator</a><a class="px-2 py-3" href="#standards">Our standards</a><a class="px-2 py-3" href="#contact">Contact</a><button class="btn btn-primary mt-2 w-full" data-open-quote>Request site assessment ↗</button></nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-grid relative flex min-h-[780px] items-center overflow-hidden pt-28 sm:min-h-[840px]">
+      <div class="orb right-[5%] top-[15%]"></div>
+      <div class="mx-auto grid w-full max-w-7xl items-center gap-12 px-4 pb-24 pt-12 sm:px-6 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
+        <div class="relative z-10 max-w-3xl">
+          <div class="mb-7 inline-flex items-center gap-3 border border-emerald-300/25 bg-emerald-300/5 px-3 py-2 text-[10px] font-bold uppercase tracking-[.18em] text-emerald-200"><span class="h-2 w-2 animate-pulse bg-emerald-300"></span> Engineering dependable power for the Niger Delta</div>
+          <h1 class="display text-[clamp(3.2rem,8vw,6.8rem)] font-semibold leading-[.96] text-white">POWER YOUR<br><span class="text-emerald-300">OPERATION.</span><br>WITHOUT LIMITS.</h1>
+          <p class="mt-7 max-w-xl text-base leading-8 text-slate-300 sm:text-lg">Industrial and commercial solar systems engineered for the Niger Delta. Resilient energy infrastructure for facilities that cannot afford to stop when the grid goes down.</p>
+          <div class="mt-9 flex flex-col gap-3 sm:flex-row"><a class="btn btn-primary" href="#calculator">Calculate solar load <span>↗</span></a><button class="btn btn-outline" data-whatsapp>Instant WhatsApp enquiry <span>↗</span></button></div>
+          <div class="mt-14 grid max-w-xl grid-cols-3 gap-4 border-t border-white/15 pt-6">
+            <div><p class="display text-2xl font-semibold text-white">24/7</p><p class="mt-1 text-[10px] uppercase tracking-wider text-slate-400">Energy continuity focus</p></div>
+            <div class="metric"><p class="display text-2xl font-semibold text-white">Hybrid</p><p class="mt-1 text-[10px] uppercase tracking-wider text-slate-400">Solar + storage systems</p></div>
+            <div class="metric"><p class="display text-2xl font-semibold text-white">PH</p><p class="mt-1 text-[10px] uppercase tracking-wider text-slate-400">Port Harcourt based</p></div>
+          </div>
+        </div>
+        <div class="relative z-10 hidden lg:block">
+          <div class="glass relative ml-auto max-w-[410px] p-6 shadow-glow">
+            <div class="flex items-center justify-between border-b border-white/10 pb-4"><span class="eyebrow">Energy systems / 001</span><span class="text-[10px] text-slate-500">ENGINEERED RESILIENCE</span></div>
+            <div class="py-9"><div class="mx-auto grid h-44 w-44 place-items-center border border-emerald-300/40 bg-emerald-300/5" style="box-shadow:inset 0 0 50px rgba(85,230,165,.08),0 0 50px rgba(85,230,165,.08)"><div class="text-center"><svg class="mx-auto text-emerald-300" width="54" height="54" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.1"><path d="M13 2 4 14h7l-1 8 10-13h-7l1-7Z"/></svg><p class="display mt-3 text-xl font-semibold">POWER ON</p></div></div></div>
+            <div class="grid grid-cols-2 gap-3"><div class="border border-white/10 bg-white/[.03] p-3"><p class="text-[10px] uppercase tracking-wider text-slate-500">System design</p><p class="mt-1 text-sm font-semibold text-white">Load-led sizing</p></div><div class="border border-white/10 bg-white/[.03] p-3"><p class="text-[10px] uppercase tracking-wider text-slate-500">Deployment</p><p class="mt-1 text-sm font-semibold text-white">Site-specific</p></div></div>
+            <p class="mt-5 text-xs leading-6 text-slate-400">From load assessment to commissioning, every installation starts with the operating requirements of your facility.</p>
+          </div>
+        </div>
+      </div>
+      <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-emerald-300/50 to-transparent"></div>
+    </section>
+
+    <section id="solutions" class="section">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex flex-col justify-between gap-5 md:flex-row md:items-end"><div><p class="eyebrow">Integrated energy capability</p><h2 class="display mt-4 max-w-2xl text-4xl font-semibold leading-tight text-white sm:text-5xl">Infrastructure built around <span class="text-emerald-300">your load.</span></h2></div><p class="max-w-md text-sm leading-7 text-slate-400">A coordinated engineering approach to generation, storage, distribution and long-term system performance.</p></div>
+        <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          <article class="service-card border border-slate-800 bg-slate-900/55 p-6"><div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="3"/><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"/></svg></div><p class="mt-8 text-[10px] font-bold tracking-[.18em] text-emerald-300">01 / GENERATION</p><h3 class="display mt-3 text-xl font-semibold text-white">Commercial Solar Installations</h3><p class="mt-3 text-sm leading-6 text-slate-400">Rooftop and ground-mounted PV arrays, string configuration, protection and grid-hybrid integration for demanding sites.</p></article>
+          <article class="service-card border border-slate-800 bg-slate-900/55 p-6"><div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="7" width="17" height="11"/><path d="M20 10h2v5h-2M12 9l-3 4h3l-1 3 4-5h-3l1-2"/></svg></div><p class="mt-8 text-[10px] font-bold tracking-[.18em] text-emerald-300">02 / STORAGE</p><h3 class="display mt-3 text-xl font-semibold text-white">Inverter & UPS Systems</h3><p class="mt-3 text-sm leading-6 text-slate-400">Inverter deployment, lithium battery banks, changeovers, preventive maintenance and backup-power optimisation.</p></article>
+          <article class="service-card border border-slate-800 bg-slate-900/55 p-6"><div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 21V5l8-3 8 3v16M8 21v-5h8v5M8 8h2m4 0h2m-8 4h2m4 0h2"/></svg></div><p class="mt-8 text-[10px] font-bold tracking-[.18em] text-emerald-300">03 / DISTRIBUTION</p><h3 class="display mt-3 text-xl font-semibold text-white">Industrial Electrical Rewiring</h3><p class="mt-3 text-sm leading-6 text-slate-400">Load balancing, distribution boards, cable sizing, earthing, surge protection and safe electrical upgrades.</p></article>
+          <article class="service-card border border-slate-800 bg-slate-900/55 p-6"><div class="icon-box"><svg width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3v18h18M7 15l4-4 3 2 6-7"/><path d="M16 6h4v4"/></svg></div><p class="mt-8 text-[10px] font-bold tracking-[.18em] text-emerald-300">04 / INTELLIGENCE</p><h3 class="display mt-3 text-xl font-semibold text-white">Energy Audit Consulting</h3><p class="mt-3 text-sm leading-6 text-slate-400">Consumption profiling, demand analysis, power-quality review and practical pathways to reduce diesel dependence.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="calculator" class="section section-rule bg-[#091725]">
+      <div class="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[.9fr_1.1fr] lg:px-8">
+        <div class="flex flex-col justify-center"><p class="eyebrow">Preliminary sizing tool / 002</p><h2 class="display mt-4 text-4xl font-semibold leading-tight text-white sm:text-5xl">Get a first look at your <span class="text-emerald-300">energy requirement.</span></h2><p class="mt-5 max-w-lg text-sm leading-7 text-slate-400">Choose a facility profile and enter your estimated simultaneous load. The calculator provides an indicative PV and battery range for an initial conversation—not a substitute for a measured site audit or signed engineering design.</p><div class="mt-8 flex items-start gap-3 border-l-2 border-emerald-300 pl-4"><span class="text-emerald-300">i</span><p class="text-xs leading-6 text-slate-400">Final sizing depends on actual appliance schedules, power factor, surge currents, autonomy target, roof conditions and local solar resource.</p></div></div>
+        <div class="glass p-5 sm:p-8">
+          <div class="flex items-center justify-between border-b border-white/10 pb-5"><div><p class="eyebrow">System estimator</p><h3 class="display mt-1 text-xl font-semibold text-white">Configure your facility</h3></div><span class="border border-emerald-300/30 px-2 py-1 text-[9px] font-bold tracking-widest text-emerald-300">LIVE MODEL</span></div>
+          <div class="mt-6 grid gap-5 sm:grid-cols-2">
+            <label class="text-xs font-semibold text-slate-300">Facility type<select id="facility" class="mt-2"><option value="office">Commercial office</option><option value="estate">Residential estate</option><option value="warehouse">Industrial warehouse</option></select></label>
+            <label class="text-xs font-semibold text-slate-300">Estimated running load (kVA)<input id="load" type="number" min="1" max="2000" step="1" value="30" class="mt-2" inputmode="decimal"></label>
+          </div>
+          <div class="mt-6"><div class="flex justify-between text-xs text-slate-400"><label for="loadRange">Adjust connected load</label><span id="loadLabel" class="font-bold text-emerald-300">30 kVA</span></div><input id="loadRange" class="range mt-3" type="range" min="5" max="500" step="5" value="30"></div>
+          <div class="mt-7 grid grid-cols-2 gap-3">
+            <div class="border border-white/10 bg-[#071522] p-4"><p class="text-[10px] uppercase tracking-widest text-slate-500">Indicative PV array</p><p class="display mt-2 text-3xl font-semibold text-emerald-300" id="pvResult">36 kWp</p><p class="mt-1 text-[10px] text-slate-500">DC nameplate estimate</p></div>
+            <div class="border border-white/10 bg-[#071522] p-4"><p class="text-[10px] uppercase tracking-widest text-slate-500">Battery storage</p><p class="display mt-2 text-3xl font-semibold text-cyan-300" id="batteryResult">90 kWh</p><p class="mt-1 text-[10px] text-slate-500">Indicative usable capacity</p></div>
+          </div>
+          <div class="mt-4 border border-emerald-300/20 bg-emerald-300/[.05] p-4"><div class="flex items-center justify-between gap-3"><span class="text-xs text-slate-300">Indicative backup at selected load</span><strong id="backupResult" class="display text-xl text-white">2.5 hours</strong></div><p id="facilityNote" class="mt-2 text-[11px] leading-5 text-slate-400">Commercial office profile: balanced daytime demand with moderate evening autonomy.</p></div>
+          <button class="btn btn-primary mt-6 w-full" data-open-quote>Request a verified site assessment ↗</button>
+          <p class="mt-3 text-center text-[10px] leading-5 text-slate-500">Planning estimate only. Equipment selection and protection design require qualified engineering review.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="standards" class="section">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-2xl"><p class="eyebrow">Delivery discipline / 003</p><h2 class="display mt-4 text-4xl font-semibold text-white sm:text-5xl">The details behind <span class="text-emerald-300">dependable power.</span></h2></div>
+        <div class="mt-12 grid gap-4 md:grid-cols-3">
+          <div class="border border-slate-800 bg-slate-900/50 p-6"><p class="display text-4xl font-semibold text-emerald-300">01</p><h3 class="mt-6 text-lg font-semibold text-white">Standards-led engineering</h3><p class="mt-3 text-sm leading-7 text-slate-400">System planning references applicable Nigerian electrical requirements and relevant IEC practices, with protection coordination and documentation considered from the outset.</p></div>
+          <div class="border border-slate-800 bg-slate-900/50 p-6"><p class="display text-4xl font-semibold text-emerald-300">02</p><h3 class="mt-6 text-lg font-semibold text-white">HSE in every phase</h3><p class="mt-3 text-sm leading-7 text-slate-400">A safety-first delivery approach covering work planning, isolation procedures, working-at-height controls, commissioning checks and handover records.</p></div>
+          <div class="border border-slate-800 bg-slate-900/50 p-6"><p class="display text-4xl font-semibold text-emerald-300">03</p><h3 class="mt-6 text-lg font-semibold text-white">Measured performance</h3><p class="mt-3 text-sm leading-7 text-slate-400">Clear scope definition, equipment schedules, system testing and maintenance guidance help clients understand what has been installed and how to operate it.</p></div>
+        </div>
+        <div class="mt-6 flex flex-col gap-4 border border-slate-800 bg-[#0a1928] p-5 sm:flex-row sm:items-center sm:justify-between"><div><p class="text-sm font-semibold text-white">Client confidence, backed by evidence.</p><p class="mt-1 text-xs leading-5 text-slate-400">Verified customer ratings, certifications and project references can be added here once approved records are supplied by management.</p></div><span class="shrink-0 border border-cyan-300/30 px-3 py-2 text-[10px] font-bold uppercase tracking-widest text-cyan-200">Documentation-ready</span></div>
+      </div>
+    </section>
+
+    <section class="section section-rule bg-[#091725]">
+      <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:items-center lg:px-8">
+        <div><p class="eyebrow">From assessment to energisation</p><h2 class="display mt-4 text-4xl font-semibold leading-tight text-white sm:text-5xl">A controlled path from <span class="text-emerald-300">brief to switch-on.</span></h2><p class="mt-5 max-w-lg text-sm leading-7 text-slate-400">The right solution begins with the way your facility operates. We structure each engagement around practical site information and a transparent technical scope.</p></div>
+        <div class="space-y-0">
+          <div class="flex gap-5 border-b border-white/10 py-5"><span class="display text-2xl text-emerald-300">01</span><div><h3 class="font-semibold text-white">Discover & survey</h3><p class="mt-1 text-sm text-slate-400">Review utility bills, load schedules, site access and critical circuits.</p></div></div>
+          <div class="flex gap-5 border-b border-white/10 py-5"><span class="display text-2xl text-emerald-300">02</span><div><h3 class="font-semibold text-white">Engineer the system</h3><p class="mt-1 text-sm text-slate-400">Develop PV, inverter, battery and protection specifications around demand.</p></div></div>
+          <div class="flex gap-5 border-b border-white/10 py-5"><span class="display text-2xl text-emerald-300">03</span><div><h3 class="font-semibold text-white">Install & commission</h3><p class="mt-1 text-sm text-slate-400">Coordinate installation, inspection, testing and operational handover.</p></div></div>
+          <div class="flex gap-5 py-5"><span class="display text-2xl text-emerald-300">04</span><div><h3 class="font-semibold text-white">Support & maintain</h3><p class="mt-1 text-sm text-slate-400">Plan preventive maintenance and performance reviews for system longevity.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-[.9fr_1.1fr] lg:px-8">
+        <div><p class="eyebrow">Talk to the engineering team</p><h2 class="display mt-4 text-4xl font-semibold leading-tight text-white sm:text-5xl">Let's design your <span class="text-emerald-300">next power system.</span></h2><p class="mt-5 max-w-md text-sm leading-7 text-slate-400">Share your facility type, location and energy challenge. Our team can use those details to scope the right next step.</p>
+          <div class="mt-9 space-y-5">
+            <div class="flex gap-4"><span class="icon-box shrink-0">⌖</span><div><p class="text-xs uppercase tracking-widest text-slate-500">Head office</p><p class="mt-1 text-sm font-semibold text-white">Eneka Road, Rukpokwu, Port Harcourt, Rivers State, Nigeria</p></div></div>
+            <div class="flex gap-4"><span class="icon-box shrink-0">↗</span><div><p class="text-xs uppercase tracking-widest text-slate-500">Site directions</p><a class="mt-1 inline-block text-sm font-semibold text-emerald-300 hover:text-white" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Eneka+Road%2C+Rukpokwu%2C+Port+Harcourt%2C+Nigeria">Open location in Google Maps ↗</a></div></div>
+          </div>
+          <div class="mt-9 border border-slate-800 bg-slate-900/50 p-5"><p class="text-xs font-semibold uppercase tracking-widest text-slate-400">Need a faster response?</p><button class="btn btn-primary mt-4 w-full sm:w-auto" data-whatsapp>Start WhatsApp enquiry ↗</button><p class="mt-3 text-[10px] leading-5 text-slate-500">This prototype opens a pre-filled WhatsApp share message. A verified company WhatsApp number can be connected before launch.</p></div>
+        </div>
+        <div class="glass p-5 sm:p-8"><div class="flex items-center justify-between border-b border-white/10 pb-5"><div><p class="eyebrow">Project enquiry</p><h3 class="display mt-1 text-2xl font-semibold text-white">Tell us what you need.</h3></div><span class="text-xs text-emerald-300">01 — 04</span></div>
+          <form id="quickForm" class="mt-6 space-y-4">
+            <div class="grid gap-4 sm:grid-cols-2"><label class="text-xs font-semibold text-slate-300">Full name<input name="name" required autocomplete="name" placeholder="Your full name" class="mt-2"></label><label class="text-xs font-semibold text-slate-300">Phone number<input name="phone" required type="tel" autocomplete="tel" placeholder="+234 ..." class="mt-2"></label></div>
+            <div class="grid gap-4 sm:grid-cols-2"><label class="text-xs font-semibold text-slate-300">Work email<input name="email" type="email" autocomplete="email" placeholder="name@company.com" class="mt-2"></label><label class="text-xs font-semibold text-slate-300">Project location<input name="location" required placeholder="e.g. Trans-Amadi, GRA, Rukpokwu" class="mt-2"></label></div>
+            <label class="block text-xs font-semibold text-slate-300">Project scope<select name="scope" class="mt-2"><option>Commercial solar installation</option><option>Inverter and battery system</option><option>Industrial electrical rewiring</option><option>Energy audit and consulting</option><option>Maintenance and troubleshooting</option></select></label>
+            <label class="block text-xs font-semibold text-slate-300">Project notes<textarea name="notes" rows="4" placeholder="Tell us about your current power supply, estimated load and project timeline." class="mt-2"></textarea></label>
+            <label class="block text-xs font-semibold text-slate-300">Attach project scope (optional)<input id="scopeFile" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png" class="mt-2 text-xs file:mr-3 file:border-0 file:bg-emerald-300 file:px-3 file:py-2 file:font-bold file:text-slate-950"><span id="fileStatus" class="mt-2 block text-[10px] font-normal text-slate-500">Prototype only: file name is captured locally; no file is uploaded or stored.</span></label>
+            <button class="btn btn-primary w-full" type="submit">Prepare enquiry message ↗</button><p id="formStatus" role="status" aria-live="polite" class="text-xs leading-5 text-slate-400"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-white/10 bg-[#040b12] py-8">
+    <div class="mx-auto flex max-w-7xl flex-col gap-6 px-4 sm:px-6 md:flex-row md:items-center md:justify-between lg:px-8">
+      <div class="flex items-center gap-3"><span class="grid h-9 w-9 place-items-center border border-emerald-300/40 text-emerald-300">P</span><div><p class="display text-sm font-bold text-white">PRESTIGE SOLAR & ELECTRICAL</p><p class="text-[9px] tracking-[.16em] text-slate-500">ENERGY INFRASTRUCTURE / PORT HARCOURT</p></div></div>
+      <p class="text-xs text-slate-500">© <span id="year"></span> Prestige Solar Energy and Electrical Limited. All rights reserved.</p>
+      <a href="#home" class="text-xs font-semibold text-emerald-300 hover:text-white">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <div id="quoteModal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-panel">
+      <div class="flex items-start justify-between border-b border-white/10 p-5 sm:p-7"><div><p class="eyebrow">Project intake / confidential</p><h2 id="modalTitle" class="display mt-2 text-2xl font-semibold text-white">Request a site assessment</h2><p class="mt-2 text-xs leading-5 text-slate-400">Send the essential details and we will prepare a structured enquiry for the Prestige team.</p></div><button id="closeModal" class="grid h-9 w-9 shrink-0 place-items-center border border-slate-700 text-xl text-slate-300" aria-label="Close dialog">×</button></div>
+      <form id="quoteForm" class="space-y-4 p-5 sm:p-7">
+        <div class="grid gap-4 sm:grid-cols-2"><label class="text-xs font-semibold text-slate-300">Full name<input name="name" required class="mt-2" placeholder="Your name"></label><label class="text-xs font-semibold text-slate-300">Phone<input name="phone" required type="tel" class="mt-2" placeholder="+234 ..."></label></div>
+        <div class="grid gap-4 sm:grid-cols-2"><label class="text-xs font-semibold text-slate-300">Email<input name="email" type="email" class="mt-2" placeholder="name@company.com"></label><label class="text-xs font-semibold text-slate-300">Project location<input name="location" required class="mt-2" placeholder="Trans-Amadi, GRA, Rukpokwu..."></label></div>
+        <label class="block text-xs font-semibold text-slate-300">Project scope<select name="scope" class="mt-2"><option>Commercial solar array</option><option>Inverter and battery installation</option><option>Industrial electrical wiring</option><option>Energy audit</option><option>Maintenance / upgrade</option></select></label>
+        <label class="block text-xs font-semibold text-slate-300">Scope summary<textarea name="notes" rows="3" class="mt-2" placeholder="Facility type, estimated load, critical equipment, preferred timeline..."></textarea></label>
+        <label class="block text-xs font-semibold text-slate-300">Project document (optional)<input id="modalFile" type="file" accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png" class="mt-2 text-xs file:mr-3 file:border-0 file:bg-emerald-300 file:px-3 file:py-2 file:font-bold file:text-slate-950"><span id="modalFileStatus" class="mt-2 block text-[10px] font-normal text-slate-500">Local file selection simulation only; no upload endpoint is connected.</span></label>
+        <button type="submit" class="btn btn-primary w-full">Continue with WhatsApp enquiry ↗</button><p id="modalStatus" role="status" aria-live="polite" class="text-xs text-slate-400"></p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    // Add the verified company WhatsApp number in international format, digits only, before production.
+    const COMPANY_WHATSAPP_NUMBER = '';
+    const $ = (id) => document.getElementById(id);
+    const menuToggle = $('menuToggle'), mobileMenu = $('mobileMenu');
+    menuToggle.addEventListener('click', () => { const open = mobileMenu.classList.toggle('open'); menuToggle.setAttribute('aria-expanded', String(open)); });
+    mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => { mobileMenu.classList.remove('open'); menuToggle.setAttribute('aria-expanded','false'); }));
+    $('year').textContent = new Date().getFullYear();
+
+    const profiles = {
+      office: { pvFactor:1.2, batteryHours:3, note:'Commercial office profile: balanced daytime demand with moderate evening autonomy.' },
+      estate: { pvFactor:1.35, batteryHours:4, note:'Residential estate profile: evening demand and essential household circuits receive a higher autonomy allowance.' },
+      warehouse: { pvFactor:1.5, batteryHours:2.5, note:'Industrial warehouse profile: motor starting, shift schedules and heavy equipment must be checked during a site audit.' }
+    };
+    function calculate() {
+      const load = Math.min(2000, Math.max(1, Number($('load').value) || 1));
+      const profile = profiles[$('facility').value];
+      const kw = load * .8; // preliminary assumed power factor
+      const pv = kw * profile.pvFactor;
+      const usable = kw * profile.batteryHours;
+      $('pvResult').textContent = Math.round(pv) + ' kWp';
+      $('batteryResult').textContent = Math.round(usable) + ' kWh';
+      $('backupResult').textContent = profile.batteryHours.toFixed(1).replace('.0','') + ' hours';
+      $('facilityNote').textContent = profile.note;
+      $('loadLabel').textContent = load + ' kVA';
+      if (document.activeElement !== $('loadRange')) $('loadRange').value = Math.min(500, Math.max(5, load));
+    }
+    $('load').addEventListener('input', calculate);
+    $('loadRange').addEventListener('input', () => { $('load').value = $('loadRange').value; calculate(); });
+    $('facility').addEventListener('change', calculate);
+    calculate();
+
+    function openWhatsApp(message) {
+      const base = 'https://wa.me/' + (COMPANY_WHATSAPP_NUMBER || '') + '?text=' + encodeURIComponent(message);
+      window.open(base, '_blank', 'noopener,noreferrer');
+    }
+    document.querySelectorAll('[data-whatsapp]').forEach(button => button.addEventListener('click', () => openWhatsApp('Hello Prestige Solar Energy and Electrical Limited. I would like to discuss a solar / electrical project in Port Harcourt. Please let me know the next steps.')));
+    const modal = $('quoteModal');
+    function showModal() { modal.classList.add('open'); document.body.style.overflow='hidden'; $('closeModal').focus(); }
+    function hideModal() { modal.classList.remove('open'); document.body.style.overflow=''; }
+    document.querySelectorAll('[data-open-quote]').forEach(button => button.addEventListener('click', showModal));
+    $('closeModal').addEventListener('click', hideModal);
+    modal.addEventListener('click', event => { if (event.target === modal) hideModal(); });
+    document.addEventListener('keydown', event => { if (event.key === 'Escape' && modal.classList.contains('open')) hideModal(); });
+
+    function wireFile(inputId, statusId) {
+      $(inputId).addEventListener('change', event => {
+        const file = event.target.files[0];
+        $(statusId).textContent = file ? file.name + ' selected (' + Math.ceil(file.size / 1024) + ' KB). Local simulation only; not uploaded.' : 'No file selected.';
+      });
+    }
+    wireFile('scopeFile','fileStatus'); wireFile('modalFile','modalFileStatus');
+    function formMessage(data) {
+      return 'Hello Prestige Solar Energy and Electrical Limited. I would like to request a site assessment.\n\nName: ' + data.name + '\nPhone: ' + data.phone + '\nEmail: ' + (data.email || 'Not provided') + '\nLocation: ' + data.location + '\nScope: ' + data.scope + '\nNotes: ' + (data.notes || 'Not provided') + '\n\nPlease advise on the next steps.';
+    }
+    function handleForm(form, statusId, fileId) {
+      form.addEventListener('submit', event => {
+        event.preventDefault();
+        if (!form.reportValidity()) return;
+        const data = Object.fromEntries(new FormData(form).entries());
+        const selectedFile = $(fileId).files[0];
+        if (selectedFile) data.notes = (data.notes || '') + '\nSelected document: ' + selectedFile.name + ' (file itself is not transferred in this prototype).';
+        $(statusId).textContent = 'Enquiry prepared. Opening WhatsApp so you can review and send the message.';
+        openWhatsApp(formMessage(data));
+      });
+    }
+    handleForm($('quickForm'),'formStatus','scopeFile');
+    handleForm($('quoteForm'),'modalStatus','modalFile');
+  </script>
+</body>
+</html>
